@@ -34,9 +34,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-//    AboutViewController *aboutVC = [[AboutViewController alloc]init];
-//    ImageViewController *imageVC = [[ImageViewController alloc]init];
-    
+    //主页滚动视图
     self.view.backgroundColor = [UIColor scrollViewTexturedBackgroundColor];
     CustomScrollView *customScrollView = [[CustomScrollView alloc]init];
     customScrollView.tag = 1001;
